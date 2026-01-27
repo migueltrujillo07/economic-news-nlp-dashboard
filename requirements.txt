@@ -1,0 +1,16 @@
+pandas
+numpy
+requests
+python-dotenv
+tqdm
+
+transformers
+torch
+sentence-transformers
+bertopic
+spacy
+
+matplotlib
+seaborn
+plotly
+streamlit
