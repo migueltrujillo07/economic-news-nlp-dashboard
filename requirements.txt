@@ -9,6 +9,7 @@ torch
 sentence-transformers
 bertopic
 spacy
+nlkt
 
 matplotlib
 seaborn
