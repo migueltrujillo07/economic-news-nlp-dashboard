@@ -22,7 +22,7 @@ The project follows a modular architecture to ensure reproducibility and clean c
 ### 1. Interactive AI Dashboard
 The main interface allows users to filter by date, source, and **Model Confidence Score**, ensuring that only high-certainty predictions are analyzed.
 
-![Dashboard Overview](./assets/dashboard_main.png)
+![Dashboard Overview](/assets/dashboard_main.png)
 
 ### 2. Temporal Sentiment Trends
 Analysis of how the economic narrative evolves daily. This helps in identifying specific dates where "Negative" news peaks, often correlating with market volatility.
