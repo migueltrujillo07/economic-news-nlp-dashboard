@@ -25,7 +25,7 @@ class GdeltIngestion:
             max_records (int): Limit of articles to retrieve.
         """
         params = {
-            "query": f'{keyword} sourcelang:spanish',
+            "query": f'{keyword} sourcelang:english',
             "mode": "artlist",
             "maxrecords": max_records,
             "timespan": timespan,  # <--- Nuevo parámetro de tiempo
