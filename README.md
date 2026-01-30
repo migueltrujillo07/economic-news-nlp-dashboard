@@ -50,4 +50,26 @@ A descriptive analysis of which news outlets are most active and their dominant 
 2. **Install Dependencies**
     ```bash
     pip install -r requirements.txt
-3. 
+3. **Run the full pipeline**
+   ```bash
+   python src/ingest.py
+   python src/preprocess.py
+   python src/nlp_analysis.py
+4. **Launch the Dashboard**
+   ```bash   
+   streamlit run app/main.py
+## 🛠️ Tech Stack
+* **Core:** Python 3.x
+
+* **NLP:** Hugging Face Transformers (FinBERT), PyTorch.
+
+* **Data:** Pandas, GDELT API.
+
+* **Visualization:** Plotly, Seaborn, Matplotlib.
+
+* **Frontend:** Streamlit (with Custom CSS for accessibility).
+
+## 💡 Key Findings
+**Model Precision:** FinBERT effectively distinguishes between general "negativity" and financial "bearishness", providing higher accuracy than generic models.
+
+**Source Concentration:** The EDA revealed that a small number of global sources dominate the economic narrative, emphasizing the need for multi-source validation
