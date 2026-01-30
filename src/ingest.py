@@ -15,7 +15,7 @@ class GdeltIngestion:
         if not os.path.exists(self.output_path):
             os.makedirs(self.output_path)
 
-    def fetch_economic_news(self, keyword="economy", timespan = "1w", max_records=250, country=None):
+    def fetch_economic_news(self, keyword="economy", timespan = "1m", max_records=250, country=None):
         """
         Queries GDELT DOC API with time constraints.
         
@@ -73,6 +73,6 @@ if __name__ == "__main__":
     # Aumentamos max_records a 250 para tener una buena base
     news_df = ingestor.fetch_economic_news(
         keyword=economic_query, 
-        timespan="1w", 
+        timespan="1m", 
         max_records=250
     )
